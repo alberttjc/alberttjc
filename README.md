@@ -84,13 +84,15 @@ links:
   <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alberttjc&layout=compact&theme=tokyonight"/>
 
 </p>
-
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=alberttjc)](https://github.com/anuraghazra/github-readme-stats)
 <!-- Contribution snake (requires GitHub Actions workflow + output branch) -->
 
 <p>
 
   <img alt="Snake animation of my contributions" src="https://raw.githubusercontent.com/alberttjc/alberttjc/output/github-contribution-grid-snake.svg"
 />
+
+![Snake animation](https://github.com/alberttjc/alberttjc/blob/output/github-contribution-grid-snake.svg)
 
 </p>
 
