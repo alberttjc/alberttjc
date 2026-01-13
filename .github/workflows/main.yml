@@ -7,11 +7,18 @@ on:
     - cron: '0 */12 * * *'
   workflow_dispatch:
 
+# Give the GitHub Actions bot permission to push
+permissions:
+  contents: write
+  
 jobs:
   build:
     name: Jobs to update datas
     runs-on: ubuntu-latest
     steps:
+      # Always check out the repo so the publish action can find the repo remote
+      - uses: actions/checkout@v4
+      
       # Snake Animation
       - uses: Platane/snk@master
         id: snake-gif
